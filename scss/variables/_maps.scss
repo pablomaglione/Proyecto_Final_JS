@@ -1,0 +1,11 @@
+$font-sizes:(
+    h1:1.5rem,
+    h2:1.2rem,
+    h4:0.75rem,
+);
+
+@each $etiquetas,$size in $font-sizes {
+    #{$etiquetas} {
+        font-size: $size;
+    }
+}

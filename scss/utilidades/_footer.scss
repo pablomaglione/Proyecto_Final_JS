@@ -1,0 +1,42 @@
+.footer {
+    background-color: $color-footer;
+    padding: 5px 10px;
+
+    ul {
+        padding: 5px 10px 5px 10px;
+        margin-bottom: 0;
+    }
+
+    .menu_footer {
+        @extend %estiloMenuFooter;
+    }
+
+    h4 {
+        margin: 0px;
+        padding: 10px 5px;
+    }
+
+    .footer_nav {
+        li {
+            list-style: none;
+        }
+    }
+
+    .icon {
+        padding: 5px 10px 5px 10px;
+        font-size: 0.9rem;
+        .icon_item{
+            width: auto;
+            height: 25px;
+            padding: 3px;
+        }
+    }
+
+    .footer_cr, .footer_autor {
+        p{
+        margin-bottom: 0;
+        padding: 3px;
+        font-size: 0.7rem;
+        }
+    }
+}

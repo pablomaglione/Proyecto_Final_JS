@@ -1,0 +1,75 @@
+.main {
+    .carousel {
+        padding: 10px;
+
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    height: 30vh;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .titulo {
+        height: 7vh;
+        padding: 5px 0;
+
+        h1 {
+            @extend %estiloTitulo;
+            margin-bottom: 0;
+            margin: 5px 0px 5px;
+        }
+    }
+
+    .section1 {
+        flex-direction: column;
+
+        align-items: center;
+
+        .section1_prod {
+            position: relative;
+            padding: 10px !important;
+            transition: transform .9s;
+
+            .section1_text {
+                @extend %estiloSectionText;
+                a{
+                    color: $color-text-secciones;
+                    text-decoration: none;
+                }
+            }
+
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+    }
+
+    .section2 {
+        height: 30vh;
+        padding: 5px;
+
+        .section2_text {
+            align-self: center;
+
+            p {
+                @include estiloFonts($font-family-section, 0.75rem, $color-text-sec2);
+                margin: 5px;
+                text-align: center;
+            }
+        }
+
+        .video-responsive {
+            position: relative;
+            display: flex;
+            padding: 5px;
+
+            video {
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+}

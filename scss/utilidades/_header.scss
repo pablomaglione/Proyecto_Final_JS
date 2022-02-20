@@ -1,0 +1,22 @@
+.header {
+    background-color: $color-header;
+    padding: 5px;
+
+    .navbar {
+        img {
+            width: 15vw;
+        }
+    }
+
+    .navbar-nav {
+        align-items: flex-end;
+
+        .nav-link {
+            @extend %estiloNav;
+
+            &:hover {
+                color: $color-text-nav-hover !important;
+            }
+        }
+    }
+}

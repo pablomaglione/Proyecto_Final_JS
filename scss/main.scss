@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+//VARIABLES
+@import './variables/colores';
+@import './variables/fonts';
+@import './variables/extend';
+@import './variables/maps';
+@import './variables/mixin';
+
+
+
+// UTILIDADES
+@import './utilidades/body';
+@import './utilidades/header';
+@import './utilidades/main';
+@import './utilidades/banner';
+@import './utilidades/footer';
+

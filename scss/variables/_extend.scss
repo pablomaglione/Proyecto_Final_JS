@@ -1,0 +1,37 @@
+%estiloNav{
+    font-family: $font-family-nav;
+    text-decoration: none;
+    transition: 1s;
+    color: $color-text-nav;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    text-shadow: 2px 2px 5px $color-shadows-text;
+}
+
+%estiloTitulo {
+    color: $color-text-titulo;
+    font-family: $font-family-titulo;
+    text-shadow: 1px 1px 3px $color-shadows-text;
+}
+
+%estiloSectionText {
+    position: absolute;
+    font-family: $font-family-prod;
+    font-size: 1.2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color-text-secciones;
+    text-shadow: 3px 3px 5px $color-shadows-text;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 110px;
+    text-align: center;
+}
+
+%estiloMenuFooter{
+    font-family: $font-family-nav;
+    text-decoration: none;
+    color: $color-text-nav;
+    padding-top: 10px;
+    font-size: 0.7rem;
+}

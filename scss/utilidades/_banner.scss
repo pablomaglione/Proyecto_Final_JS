@@ -1,0 +1,17 @@
+.banner {
+    padding: 10px 0px;
+
+    i {
+        font-size: 0.75rem;
+        padding: 10px 5px;
+        margin: 0px;
+        color: $color-banner;
+    }
+
+    h3 {
+        @include estiloFonts($font-family-prod, 0.75rem, $color-banner);
+        padding: 10px 5px;
+        margin: 0px;
+    }
+}
+
