@@ -35,7 +35,8 @@
 
             .section1_text {
                 @extend %estiloSectionText;
-                a{
+
+                a {
                     color: $color-text-secciones;
                     text-decoration: none;
                 }
