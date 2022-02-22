@@ -12,7 +12,7 @@
   font-size: 0.8rem;
   text-shadow: 2px 2px 5px #5a5e62; }
 
-.main .titulo h1 {
+.main .titulo h1, .contacto .titulo h1 {
   color: #000000;
   font-family: "Abril Fatface", cursive;
   text-shadow: 1px 1px 3px #5a5e62; }
@@ -45,6 +45,10 @@ h2 {
 
 h4 {
   font-size: 0.75rem; }
+
+.btn {
+  background-color: #a4d4e6;
+  border-color: #a4d4e6; }
 
 body {
   background-color: #ffffff; }
@@ -150,3 +154,13 @@ body {
       height: 350px; }
     .productos .productos_item .card p {
       margin: 0; }
+
+.contacto {
+  background-color: #eff2f5; }
+  .contacto .titulo {
+    padding-top: 20px; }
+    .contacto .titulo h1 {
+      margin-bottom: 0;
+      margin: 5px 0px 5px; }
+  .contacto .form {
+    padding-top: 20px; }
