@@ -25,7 +25,7 @@
 
     //MAIN
     .main {
-        
+
         .section1 {
             flex-direction: row;
             padding: 10px;
@@ -127,6 +127,7 @@
 
         .section2 {
             justify-content: space-evenly;
+            height: 45vh;
 
             .section2_text {
                 .p {
@@ -241,7 +242,7 @@
 
         .section2 {
             justify-content: space-evenly;
-            height: 55vh;
+            height: 60vh;
 
             .section2_text {
                 .p {
