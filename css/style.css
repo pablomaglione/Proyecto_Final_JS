@@ -80,7 +80,7 @@ h4 {
     .main .section1 .sec1_prod {
       flex-direction: row; }
   .main .section2 {
-    height: 40vh; }
+    height: 50vh; }
     .main .section2 .section2_text .p {
       font-size: 0.9rem;
       margin: 10px;
@@ -153,7 +153,7 @@ h4 {
     width: 140px; }
   .main .section2 {
     justify-content: space-evenly;
-    height: 80vh; }
+    height: 85vh; }
     .main .section2 .section2_text .p {
       margin: 10px;
       line-height: 40px;
