@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
+@font-face {
+  font-family: 'Abril Fatface', cursive;
+  src: url(../../fonts/AbrilFatface-Regular.ttf); }
+
 .header .navbar-nav .nav-link {
   font-family: "Abril Fatface", cursive;
   text-decoration: none;
