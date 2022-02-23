@@ -25,6 +25,7 @@
 
     //MAIN
     .main {
+        
         .section1 {
             flex-direction: row;
             padding: 10px;
@@ -39,16 +40,16 @@
 
             .section2_text {
                 .p {
-                    font-size: 1.1rem;
+                    font-size: 0.9rem;
                     margin: 10px;
-                    line-height: 40px;
+                    line-height: 30px;
                 }
             }
-        }
 
-        .video-responsive {
-            .video {
-                width: 80% !important;
+            .video-responsive {
+                .video {
+                    width: 80% !important;
+                }
             }
         }
     }
@@ -125,20 +126,21 @@
         }
 
         .section2 {
-            height: 50vh;
+            justify-content: space-evenly;
 
             .section2_text {
                 .p {
-                    font-size: 1.25rem;
                     margin: 10px;
-                    line-height: 50px;
+                    line-height: 30px;
+                    font-size: 1.1rem;
                 }
             }
-        }
 
-        .video-responsive {
-            .video {
-                width: 80% !important;
+
+            .video-responsive {
+                .video {
+                    width: 90% !important;
+                }
             }
         }
     }
@@ -201,6 +203,7 @@
 
         .navbar-collapse {
             justify-content: flex-end;
+
             .navbar-nav {
                 .nav-link {
                     font-size: 1.4rem;
@@ -216,7 +219,7 @@
             .carousel-inner {
                 .carousel-item {
                     .carousel-item_img {
-                        height: 450px;
+                        height: 550px;
                         width: auto;
                     }
                 }
@@ -237,12 +240,21 @@
         }
 
         .section2 {
-            height: 60vh;
-        }
+            justify-content: space-evenly;
+            height: 55vh;
 
-        .video-responsive {
-            .video {
-                width: 70% !important;
+            .section2_text {
+                .p {
+                    margin: 10px;
+                    line-height: 40px;
+                    font-size: 1.25rem;
+                }
+            }
+
+            .video-responsive {
+                .video {
+                    width: 95% !important;
+                }
             }
         }
     }
