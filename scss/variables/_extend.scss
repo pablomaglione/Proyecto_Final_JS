@@ -1,4 +1,4 @@
-%estiloNav{
+%estiloNav {
     font-family: $font-family-nav;
     text-decoration: none;
     transition: 1s;
@@ -28,7 +28,14 @@
     text-align: center;
 }
 
-%estiloMenuFooter{
+%estiloBanner {
+    font-size: 0.75rem;
+    padding: 10px 5px;
+    margin: 0px;
+    color: $color-banner;
+}
+
+%estiloMenuFooter {
     font-family: $font-family-nav;
     text-decoration: none;
     color: $color-text-nav;

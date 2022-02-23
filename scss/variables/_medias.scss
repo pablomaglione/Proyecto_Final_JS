@@ -1,0 +1,272 @@
+//MEDIAS QUERYS
+@media (min-width:468px) and (max-width:768px) {
+    .main {
+        .section1 {
+            .sec1_prod {
+                flex-direction: column
+            }
+        }
+    }
+}
+
+//768PX
+@media (min-width: 768px) {
+
+    //HEADER
+    .header {
+        .navbar-nav {
+            align-items: flex-end;
+
+            .nav-link {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    //MAIN
+    .main {
+        .section1 {
+            flex-direction: row;
+            padding: 10px;
+
+            .sec1_prod {
+                flex-direction: row;
+            }
+        }
+
+        .section2 {
+            height: 40vh;
+
+            .section2_text {
+                .p {
+                    font-size: 1.1rem;
+                    margin: 10px;
+                    line-height: 40px;
+                }
+            }
+        }
+
+        .video-responsive {
+            .video {
+                width: 80% !important;
+            }
+        }
+    }
+
+    //BANNER BENEFICIOS
+    .banner {
+        i {
+            font-size: 1rem;
+        }
+
+        .h3 {
+            font-size: 1rem;
+        }
+    }
+
+    //FOOTER
+    .footer {
+
+        .menu_footer {
+            font-size: 0.9rem;
+        }
+
+
+        .footer_cr,
+        .footer_autor {
+
+            .footer_cr_p,
+            .footer_autor_p {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+//1024PX
+@media (min-width: 1024px) {
+
+    //HEADER
+    .header {
+        .navbar-collapse {
+            justify-content: flex-end;
+
+            .navbar-nav {
+                .nav-link {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+
+    //MAIN
+    .main {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-item_img {
+                        height: 450px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+        .section2 {
+            height: 50vh;
+
+            .section2_text {
+                .p {
+                    font-size: 1.25rem;
+                    margin: 10px;
+                    line-height: 50px;
+                }
+            }
+        }
+
+        .video-responsive {
+            .video {
+                width: 80% !important;
+            }
+        }
+    }
+
+    //BANNER BENEFICIOS
+    .banner {
+        i {
+            font-size: 1.5rem;
+        }
+
+        .h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    //FOOTER
+    .footer {
+
+        .footer_enc {
+            font-size: 1.3rem;
+        }
+
+        .menu_footer {
+            font-size: 1.2rem;
+        }
+
+        .icon {
+            .icon_item {
+                height: 40px;
+            }
+        }
+
+        .footer_cr,
+        .footer_autor {
+
+            .footer_cr_p,
+            .footer_autor_p {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+//1440
+@media (min-width: 1440px) {
+
+    //HEADER
+    .header {
+
+        .navbar-collapse {
+            justify-content: flex-end;
+
+            .navbar-nav {
+                .nav-link {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+
+    //MAIN
+    .main {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-item_img {
+                        height: 450px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+        .section1 {
+
+            .sec1_prod {
+
+                .section1_prod {
+                    .section1_text {
+                        font-size: 1.5rem;
+                        width: 140px;
+                    }
+                }
+            }
+        }
+
+        .section2 {
+            height: 50vh;
+
+            .section2_text {
+                .p {
+                    font-size: 1.5rem;
+                    margin: 10px;
+                    line-height: 70px;
+                }
+            }
+        }
+
+        .video-responsive {
+            .video {
+                width: 75% !important;
+            }
+        }
+    }
+
+    //BANNER BENEFICIOS
+    .banner {
+        i {
+            font-size: 1.5rem;
+        }
+
+        .h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    //FOOTER
+    .footer {
+
+        .footer_enc {
+            font-size: 1.3rem;
+        }
+
+        .menu_footer {
+            font-size: 1.2rem;
+        }
+
+        .icon {
+            .icon_item {
+                height: 40px;
+            }
+        }
+
+        .footer_cr,
+        .footer_autor {
+
+            .footer_cr_p,
+            .footer_autor_p {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

@@ -2,10 +2,7 @@
     padding: 10px 0px;
 
     i {
-        font-size: 0.75rem;
-        padding: 10px 5px;
-        margin: 0px;
-        color: $color-banner;
+        @extend %estiloBanner;
     }
 
     h3 {

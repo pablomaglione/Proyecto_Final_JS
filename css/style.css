@@ -7,7 +7,7 @@
   font-family: "Abril Fatface", cursive;
   text-decoration: none;
   transition: 1s;
-  color: #000000;
+  color: #2890cb;
   padding-top: 10px;
   font-size: 0.8rem;
   text-shadow: 2px 2px 5px #5a5e62; }
@@ -17,7 +17,7 @@
   font-family: "Abril Fatface", cursive;
   text-shadow: 1px 1px 3px #5a5e62; }
 
-.main .section1 .section1_prod .section1_text {
+.main .section1 .sec1_prod .section1_prod .section1_text {
   position: absolute;
   font-family: "Abril Fatface", cursive;
   font-size: 1.2rem;
@@ -30,10 +30,16 @@
   width: 110px;
   text-align: center; }
 
+.banner i {
+  font-size: 0.75rem;
+  padding: 10px 5px;
+  margin: 0px;
+  color: #3c3e3f; }
+
 .footer .menu_footer {
   font-family: "Abril Fatface", cursive;
   text-decoration: none;
-  color: #000000;
+  color: #2890cb;
   padding-top: 10px;
   font-size: 0.7rem; }
 
@@ -50,24 +56,127 @@ h4 {
   background-color: #a4d4e6;
   border-color: #a4d4e6; }
 
+@media (min-width: 468px) and (max-width: 768px) {
+  .main .section1 .sec1_prod {
+    flex-direction: column; } }
+
+@media (min-width: 768px) {
+  .header .navbar-nav {
+    align-items: flex-end; }
+    .header .navbar-nav .nav-link {
+      font-size: 1rem; }
+  .main .section1 {
+    flex-direction: row;
+    padding: 10px; }
+    .main .section1 .sec1_prod {
+      flex-direction: row; }
+  .main .section2 {
+    height: 40vh; }
+    .main .section2 .section2_text .p {
+      font-size: 1.1rem;
+      margin: 10px;
+      line-height: 40px; }
+  .main .video-responsive .video {
+    width: 80% !important; }
+  .banner i {
+    font-size: 1rem; }
+  .banner .h3 {
+    font-size: 1rem; }
+  .footer .menu_footer {
+    font-size: 0.9rem; }
+  .footer .footer_cr .footer_cr_p,
+  .footer .footer_cr .footer_autor_p,
+  .footer .footer_autor .footer_cr_p,
+  .footer .footer_autor .footer_autor_p {
+    font-size: 0.9rem; } }
+
+@media (min-width: 1024px) {
+  .header .navbar-collapse {
+    justify-content: flex-end; }
+    .header .navbar-collapse .navbar-nav .nav-link {
+      font-size: 1.7rem; }
+  .main .carousel .carousel-inner .carousel-item .carousel-item_img {
+    height: 450px;
+    width: auto; }
+  .main .section2 {
+    height: 50vh; }
+    .main .section2 .section2_text .p {
+      font-size: 1.25rem;
+      margin: 10px;
+      line-height: 50px; }
+  .main .video-responsive .video {
+    width: 80% !important; }
+  .banner i {
+    font-size: 1.5rem; }
+  .banner .h3 {
+    font-size: 1.5rem; }
+  .footer .footer_enc {
+    font-size: 1.3rem; }
+  .footer .menu_footer {
+    font-size: 1.2rem; }
+  .footer .icon .icon_item {
+    height: 40px; }
+  .footer .footer_cr .footer_cr_p,
+  .footer .footer_cr .footer_autor_p,
+  .footer .footer_autor .footer_cr_p,
+  .footer .footer_autor .footer_autor_p {
+    font-size: 0.9rem; } }
+
+@media (min-width: 1440px) {
+  .header .navbar-collapse {
+    justify-content: flex-end; }
+    .header .navbar-collapse .navbar-nav .nav-link {
+      font-size: 1.5rem; }
+  .main .carousel .carousel-inner .carousel-item .carousel-item_img {
+    height: 450px;
+    width: auto; }
+  .main .section1 .sec1_prod .section1_prod .section1_text {
+    font-size: 1.5rem;
+    width: 140px; }
+  .main .section2 {
+    height: 50vh; }
+    .main .section2 .section2_text .p {
+      font-size: 1.5rem;
+      margin: 10px;
+      line-height: 70px; }
+  .main .video-responsive .video {
+    width: 75% !important; }
+  .banner i {
+    font-size: 1.5rem; }
+  .banner .h3 {
+    font-size: 1.5rem; }
+  .footer .footer_enc {
+    font-size: 1.3rem; }
+  .footer .menu_footer {
+    font-size: 1.2rem; }
+  .footer .icon .icon_item {
+    height: 40px; }
+  .footer .footer_cr .footer_cr_p,
+  .footer .footer_cr .footer_autor_p,
+  .footer .footer_autor .footer_cr_p,
+  .footer .footer_autor .footer_autor_p {
+    font-size: 0.9rem; } }
+
 body {
   background-color: #ffffff; }
 
 .header {
   background-color: #D8E3E7;
   padding: 5px; }
-  .header .navbar img {
-    width: 15vw; }
   .header .navbar-nav {
-    align-items: flex-end; }
+    align-items: flex-end;
+    list-style: none; }
     .header .navbar-nav .nav-link:hover {
-      color: #524932 !important; }
+      color: #c8ccfd !important; }
 
 .main .carousel {
-  padding: 10px; }
+  padding: 10px 0px; }
   .main .carousel .carousel-inner .carousel-item img {
-    height: 30vh;
+    height: auto;
     width: 100%; }
+  .main .carousel .carousel-control-prev,
+  .main .carousel .carousel-control-next {
+    visibility: hidden; }
 
 .main .titulo {
   height: 7vh;
@@ -79,18 +188,19 @@ body {
 .main .section1 {
   flex-direction: column;
   align-items: center; }
-  .main .section1 .section1_prod {
-    position: relative;
-    padding: 10px !important;
-    transition: transform .9s; }
-    .main .section1 .section1_prod .section1_text a {
-      color: #fff;
-      text-decoration: none; }
-    .main .section1 .section1_prod:hover {
-      transform: scale(1.02); }
+  .main .section1 .sec1_prod {
+    align-content: center; }
+    .main .section1 .sec1_prod .section1_prod {
+      position: relative;
+      padding: 10px !important;
+      transition: transform .9s; }
+      .main .section1 .sec1_prod .section1_prod .section1_text a {
+        color: #fff;
+        text-decoration: none; }
+      .main .section1 .sec1_prod .section1_prod:hover {
+        transform: scale(1.02); }
 
 .main .section2 {
-  height: 30vh;
   padding: 5px; }
   .main .section2 .section2_text {
     align-self: center; }
@@ -103,18 +213,15 @@ body {
   .main .section2 .video-responsive {
     position: relative;
     display: flex;
-    padding: 5px; }
-    .main .section2 .video-responsive video {
+    padding: 5px;
+    justify-content: center;
+    align-items: center; }
+    .main .section2 .video-responsive .video {
       width: 100%;
       border-radius: 10px; }
 
 .banner {
   padding: 10px 0px; }
-  .banner i {
-    font-size: 0.75rem;
-    padding: 10px 5px;
-    margin: 0px;
-    color: #3c3e3f; }
   .banner h3 {
     font-family: "Abril Fatface", cursive;
     font-size: 0.75rem;
@@ -134,11 +241,10 @@ body {
   .footer .footer_nav li {
     list-style: none; }
   .footer .icon {
-    padding: 5px 10px 5px 10px;
-    font-size: 0.9rem; }
-    .footer .icon .icon_item {
+    padding: 5px 10px 5px 10px; }
+    .footer .icon img {
       width: auto;
-      height: 25px;
+      height: 30px;
       padding: 3px; }
   .footer .footer_cr p, .footer .footer_autor p {
     margin-bottom: 0;

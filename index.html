@@ -40,16 +40,16 @@
             <!-- BARRA NAVEGACION -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html"><img src="./img/logo_size_new.png" alt="Logo_Suiza"
+                    <a class="navbar-brand" href="./index.html"><img src="./img/logo_size_new.png" height="auto" width="100" alt="Logo_Suiza"
                             class="img-fluid img-no"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav align-items-flex-end">
+                        <ul class="navbar-nav align-items-flex-end data-animation="bonus">
                             <li class="nav-item">
-                                <a class="nav-link active otra-clase" aria-current="page" href="./index.html">INICIO</a>
+                                <a class="nav-link otra-clase" aria-current="page" href="./index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="html/joyas.html">JOYAS</a>
@@ -82,35 +82,29 @@
                             aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-item active">
-                        <img src="./img/corousel/relojes-para-mujer.webp"
-                            class="swiper-lazy blur-up-huge slide-img swiper-lazy-loaded d-block w-100"
+                        <img src="./img/corousel/relojes-para-mujer-1080x696.jpg"
+                            class="carousel-item_img swiper-lazy blur-up-huge slide-img swiper-lazy-loaded d-block rounded mx-auto"
                             alt="JyRSuiza_img1" srcset="">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/corousel/mejores-relojes-de-pulsera-para-hombre.webp" class="swiper-lazy blur-up-huge slide-img swiper-lazy-loaded d-block w-100"
-                            alt="JyRSuiza_img2" srcset="" sizes="auto">
+                        <img src="./img/corousel/mejores-relojes-de-pulsera-para-hombre-1080x675.jpg"
+                            class="carousel-item_img swiper-lazy blur-up-huge slide-img swiper-lazy-loaded d-block rounded mx-auto"
+                            alt="JyRSuiza_img2" srcset="">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/corousel/istockphoto-599908966.webp"
-                        class=" swiper-lazy blur-up-huge slide-img swiper-lazy-loaded d-block w-100"
-                            alt="JyRSuiza_img3" srcset="" sizes="auto">
+                        <img src="./img/corousel/relojes-de-lujo-más-caros-del-mundo-1080x663.jpg" 
+                            class="carousel-item_img swiper-lazy blur-up-huge slide-img swiper-lazy-loaded d-block rounded mx-auto"
+                            alt="JyRSuiza_img3" srcset="">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
             <!-- SECCION PRODUCTOS-->
             <div class="d-flex section1">
-                <div class="row">
-                    <div class="col-12 col-md-12 col-lg-4 section1_prod">
+                <div class="row sec1_prod">
+                    <div class="col-12 col-md-4 col-lg-4 section1_prod">
                         <div>
-                            <a title="Joyas" href="./html/joyas.html"><img class="img-fluid img-no d-block rounded float-start"
+                            <a title="Joyas" href="./html/joyas.html"><img
+                                    class="img-fluid img-no d-block rounded float-start"
                                     src="./img/joyas/mujer_joyas.webp" alt="JOYAS">
                             </a>
                             <div class="section1_text">
@@ -118,7 +112,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-4 section1_prod">
+                    <div class="col-12 col-md-4 col-lg-4 section1_prod">
                         <div>
                             <a title="Alianzas" href=""><img class="img-fluid img-no d-block rounded mx-auto"
                                     src="./img/alianzas/istockphoto-486506062.webp" alt="ALIANZAS">
@@ -128,7 +122,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-4 section1_prod">
+                    <div class="col-12 col-md-4 col-lg-4 section1_prod">
                         <div>
                             <a title="Relojes" href=""><img class="img-fluid img-no d-block rounded float-end"
                                     src="./img/relojes/Marcas-de-Relojes-de-Lujo.webp" alt="RELOJES">
@@ -142,14 +136,13 @@
             </div>
             <div class="section2 row">
                 <div data-aos="flip-left" class="col-6 section2_text text-center d-flex align-items-center">
-                    <p>Explore la colección de prestigiosos relojes Rolex de alta precisión. Rolex proporciona una
+                    <p class="p">Explore la colección de prestigiosos relojes Rolex de alta precisión. Rolex proporciona una
                         amplia selección de relojes Oyster Perpetual y Cellini, para adaptarse a cualquier muñeca.
                         Descubra la gran selección de relojes Rolex: una perfecta combinación de estilo y funcionalidad.
                     </p>
                 </div>
                 <div class="video-responsive col-6">
-                    <video src="./video/Relojes_de_hombre_-_Encuentre_su_reloj_Rolex.mp4" autoplay muted
-                        loop></video>
+                    <video class="video" src="./video/Relojes_de_hombre_-_Encuentre_su_reloj_Rolex.mp4" autoplay muted loop></video>
                 </div>
             </div>
             <!-- BANNER BENEFICIOS-->
@@ -159,7 +152,7 @@
                         <i class="fas fa-truck"></i>
                     </div>
                     <div>
-                        <h3>ENVIOS A TODO EL PAIS</h3>
+                        <h3 class="h3">ENVIOS A TODO EL PAIS</h3>
                     </div>
                 </div>
                 <div class="col-6 banner_fin d-flex justify-content-evenly align-items-baseline">
@@ -167,7 +160,7 @@
                         <i class="fas fa-credit-card"></i>
                     </div>
                     <div>
-                        <h3>CUOTAS SIN INTERESES</h3>
+                        <h3 class="h3">CUOTAS SIN INTERESES</h3>
                     </div>
                 </div>
             </div>
@@ -176,7 +169,7 @@
         <footer class="footer row">
             <div class="d-flex justify-content-around">
                 <div class="footer_nav col-4">
-                    <h4>NAVEGACIÓN</h4>
+                    <h4 class="footer_enc">NAVEGACIÓN</h4>
                     <ul>
                         <li><a class="menu_footer" href="./index.html">INICIO</a></li>
                         <li><a class="menu_footer" href="./html/joyas.html">JOYAS</a></li>
@@ -186,30 +179,34 @@
                     </ul>
                 </div>
                 <div class="footer_pay col-4">
-                    <h4>FORMAS DE PAGO</h4>
+                    <h4 class="footer_enc">FORMAS DE PAGO</h4>
                     <div class="icon">
-                        <img class="icon_item" src="./img/iconos/visa.png" alt="">
-                        <img class="icon_item" src="./img/iconos/mastercard.png" alt="">
-                        <img class="icon_item" src="./img/iconos/tarjeta-naranja.png" alt="">
-                        <img class="icon_item" src="./img/iconos/american.png" alt="">
-                        <img class="icon_item" src="./img/iconos/cabal.png" alt="">
-                        <img class="icon_item" src="./img/iconos/diners.png" alt="">
-                        <img class="icon_item" src="./img/iconos/mercadopago.png" alt="">
+                        <img class="icon_item" src="./img/iconos/visa.png" alt="icon_visa">
+                        <img class="icon_item" src="./img/iconos/mastercard.png" alt="icon_mc">
+                        <img class="icon_item" src="./img/iconos/tarjeta-naranja.png" alt="icon_tn">
+                        <img class="icon_item" src="./img/iconos/american.png" alt="icon_amer">
+                        <img class="icon_item" src="./img/iconos/cabal.png" alt="icon_cabal">
+                        <img class="icon_item" src="./img/iconos/diners.png" alt="icon_diner">
+                        <img class="icon_item" src="./img/iconos/mercadopago.png" alt="icon_mp">
                     </div>
                 </div>
                 <div class="footer_net col-4">
-                    <h4>REDES SOCIALES</h4>
+                    <h4 class="footer_enc">CONTACTANOS</h4>
                     <div class="icon">
-                        <img class="icon_item" src="./img/iconos/facebook.png" alt="">
-                        <img class="icon_item" src="./img/iconos/whatsapp.png" alt="">
+                        <a href="https://api.whatsapp.com/send?phone=+5493482541388">
+                            <img class="icon_item" src="./img/iconos/whatsapp.png" alt="icon_wsp">
+                        </a>
+                        <a href="mailto:jyrsuiza@gmail.com">
+                            <img class="icon_item" src="./img/iconos/email.png" alt="icon_mail">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-12 text-center footer_cr">
-                <p>© Joyería y Relojería Suiza</p>
+                <p class="footer_cr_p">© Joyería y Relojería Suiza</p>
             </div>
             <div class="col-12 text-center footer_autor">
-                <p>Pablo Maglione</p>
+                <p class="footer_autor_p">Pablo Maglione</p>
             </div>
         </footer>
     </div>
