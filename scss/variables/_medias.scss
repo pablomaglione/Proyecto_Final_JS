@@ -3,7 +3,7 @@
     .main {
         .section1 {
             .sec1_prod {
-                flex-direction: column
+                flex-direction: column;
             }
         }
     }
@@ -81,6 +81,18 @@
             }
         }
     }
+
+    //CONTACTO
+    .contacto {
+        .form {
+            max-width: 500px;
+
+            .form-label,
+            .form-control {
+                font-size: 0.8rem;
+            }
+        }
+    }
 }
 
 //1024PX
@@ -93,7 +105,7 @@
 
             .navbar-nav {
                 .nav-link {
-                    font-size: 1.7rem;
+                    font-size: 1.25rem;
                 }
             }
         }
@@ -134,11 +146,11 @@
     //BANNER BENEFICIOS
     .banner {
         i {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
 
         .h3 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
         }
     }
 
@@ -146,11 +158,11 @@
     .footer {
 
         .footer_enc {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
         }
 
         .menu_footer {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
 
         .icon {
@@ -164,7 +176,18 @@
 
             .footer_cr_p,
             .footer_autor_p {
-                font-size: 0.9rem;
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+    //CONTACTO
+    .contacto {
+        .form {
+
+            .form-label,
+            .form-control {
+                font-size: 1rem;
             }
         }
     }
@@ -178,12 +201,12 @@
 
         .navbar-collapse {
             justify-content: flex-end;
-
             .navbar-nav {
                 .nav-link {
-                    font-size: 1.5rem;
+                    font-size: 1.4rem;
                 }
             }
+
         }
     }
 
@@ -214,45 +237,18 @@
         }
 
         .section2 {
-            height: 50vh;
-
-            .section2_text {
-                .p {
-                    font-size: 1.5rem;
-                    margin: 10px;
-                    line-height: 70px;
-                }
-            }
+            height: 60vh;
         }
 
         .video-responsive {
             .video {
-                width: 75% !important;
+                width: 70% !important;
             }
-        }
-    }
-
-    //BANNER BENEFICIOS
-    .banner {
-        i {
-            font-size: 1.5rem;
-        }
-
-        .h3 {
-            font-size: 1.5rem;
         }
     }
 
     //FOOTER
     .footer {
-
-        .footer_enc {
-            font-size: 1.3rem;
-        }
-
-        .menu_footer {
-            font-size: 1.2rem;
-        }
 
         .icon {
             .icon_item {
@@ -265,7 +261,19 @@
 
             .footer_cr_p,
             .footer_autor_p {
-                font-size: 0.9rem;
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+
+    //CONTACTO
+    .contacto {
+        .form {
+
+            .form-label,
+            .form-control {
+                font-size: 1.25rem;
             }
         }
     }

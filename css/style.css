@@ -43,6 +43,10 @@
   padding-top: 10px;
   font-size: 0.7rem; }
 
+.contacto .form {
+  font-family: "Abril Fatface", cursive;
+  font-size: 0.6rem; }
+
 h1 {
   font-size: 1.5rem; }
 
@@ -88,13 +92,18 @@ h4 {
   .footer .footer_cr .footer_autor_p,
   .footer .footer_autor .footer_cr_p,
   .footer .footer_autor .footer_autor_p {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+  .contacto .form {
+    max-width: 500px; }
+    .contacto .form .form-label,
+    .contacto .form .form-control {
+      font-size: 0.8rem; } }
 
 @media (min-width: 1024px) {
   .header .navbar-collapse {
     justify-content: flex-end; }
     .header .navbar-collapse .navbar-nav .nav-link {
-      font-size: 1.7rem; }
+      font-size: 1.25rem; }
   .main .carousel .carousel-inner .carousel-item .carousel-item_img {
     height: 450px;
     width: auto; }
@@ -107,26 +116,29 @@ h4 {
   .main .video-responsive .video {
     width: 80% !important; }
   .banner i {
-    font-size: 1.5rem; }
+    font-size: 1.25rem; }
   .banner .h3 {
-    font-size: 1.5rem; }
+    font-size: 1.25rem; }
   .footer .footer_enc {
-    font-size: 1.3rem; }
+    font-size: 1.1rem; }
   .footer .menu_footer {
-    font-size: 1.2rem; }
+    font-size: 1rem; }
   .footer .icon .icon_item {
     height: 40px; }
   .footer .footer_cr .footer_cr_p,
   .footer .footer_cr .footer_autor_p,
   .footer .footer_autor .footer_cr_p,
   .footer .footer_autor .footer_autor_p {
-    font-size: 0.9rem; } }
+    font-size: 0.7rem; }
+  .contacto .form .form-label,
+  .contacto .form .form-control {
+    font-size: 1rem; } }
 
 @media (min-width: 1440px) {
   .header .navbar-collapse {
     justify-content: flex-end; }
     .header .navbar-collapse .navbar-nav .nav-link {
-      font-size: 1.5rem; }
+      font-size: 1.4rem; }
   .main .carousel .carousel-inner .carousel-item .carousel-item_img {
     height: 450px;
     width: auto; }
@@ -134,28 +146,19 @@ h4 {
     font-size: 1.5rem;
     width: 140px; }
   .main .section2 {
-    height: 50vh; }
-    .main .section2 .section2_text .p {
-      font-size: 1.5rem;
-      margin: 10px;
-      line-height: 70px; }
+    height: 60vh; }
   .main .video-responsive .video {
-    width: 75% !important; }
-  .banner i {
-    font-size: 1.5rem; }
-  .banner .h3 {
-    font-size: 1.5rem; }
-  .footer .footer_enc {
-    font-size: 1.3rem; }
-  .footer .menu_footer {
-    font-size: 1.2rem; }
+    width: 70% !important; }
   .footer .icon .icon_item {
     height: 40px; }
   .footer .footer_cr .footer_cr_p,
   .footer .footer_cr .footer_autor_p,
   .footer .footer_autor .footer_cr_p,
   .footer .footer_autor .footer_autor_p {
-    font-size: 0.9rem; } }
+    font-size: 0.8rem; }
+  .contacto .form .form-label,
+  .contacto .form .form-control {
+    font-size: 1.25rem; } }
 
 body {
   background-color: #ffffff; }
@@ -270,3 +273,5 @@ body {
       margin: 5px 0px 5px; }
   .contacto .form {
     padding-top: 20px; }
+    .contacto .form input, .contacto .form textarea {
+      font-size: 0.6rem; }

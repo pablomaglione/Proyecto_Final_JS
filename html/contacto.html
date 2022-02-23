@@ -40,17 +40,16 @@
             <!-- BARRA NAVEGACION -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html"><img src="../img/logo_size_new.png" alt="Logo_Suiza"
+                    <a class="navbar-brand" href="../index.html"><img src="../img/logo_size_new.png" height="auto" width="100" alt="Logo_Suiza"
                             class="img-fluid img-no"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav align-items-flex-end">
+                        <ul class="navbar-nav align-items-flex-end data-animation="bonus">
                             <li class="nav-item">
-                                <a class="nav-link active otra-clase" aria-current="page"
-                                    href="../index.html">INICIO</a>
+                                <a class="nav-link otra-clase" aria-current="page" href="../index.html">INICIO</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./joyas.html">JOYAS</a>
@@ -74,7 +73,7 @@
             <div class="titulo row">
                 <h1 class="col-12 text-center">FORMULARIO DE CONTACTO</h1>
             </div>
-            <form class="form d-flex flex-wrap flex-column">
+            <form class="form d-flex flex-wrap flex-column mx-auto">
                 <!-- Nombre input -->
                 <div class="form-outline mb-4">
                     <label class="form-label" for="form">Nombre</label>
@@ -106,7 +105,7 @@
                         <i class="fas fa-truck"></i>
                     </div>
                     <div>
-                        <h3>ENVIOS A TODO EL PAIS</h3>
+                        <h3 class="h3">ENVIOS A TODO EL PAIS</h3>
                     </div>
                 </div>
                 <div class="col-6 banner_fin d-flex justify-content-evenly align-items-baseline">
@@ -114,7 +113,7 @@
                         <i class="fas fa-credit-card"></i>
                     </div>
                     <div>
-                        <h3>CUOTAS SIN INTERESES</h3>
+                        <h3 class="h3">CUOTAS SIN INTERESES</h3>
                     </div>
                 </div>
             </div>
@@ -123,40 +122,44 @@
         <footer class="footer row">
             <div class="d-flex justify-content-around">
                 <div class="footer_nav col-4">
-                    <h4>NAVEGACIÓN</h4>
+                    <h4 class="footer_enc">NAVEGACIÓN</h4>
                     <ul>
                         <li><a class="menu_footer" href="../index.html">INICIO</a></li>
-                        <li><a class="menu_footer" href="./joyas.html">JOYAS</a></li>
-                        <li><a class="menu_footer" href="./alianzas.html">ALIANZAS</a></li>
-                        <li><a class="menu_footer" href="./relojes.html">RELOJES</a></li>
-                        <li><a class="menu_footer" href="./contacto.html">CONTACTO</a></li>
+                        <li><a class="menu_footer" href="../html/joyas.html">JOYAS</a></li>
+                        <li><a class="menu_footer" href="../html/alianzas.html">ALIANZAS</a></li>
+                        <li><a class="menu_footer" href="../html/relojes.html">RELOJES</a></li>
+                        <li><a class="menu_footer" href="../html/contacto.html">CONTACTO</a></li>
                     </ul>
                 </div>
                 <div class="footer_pay col-4">
-                    <h4>FORMAS DE PAGO</h4>
+                    <h4 class="footer_enc">FORMAS DE PAGO</h4>
                     <div class="icon">
-                        <img class="icon_item" src="../img/iconos/visa.png" alt="">
-                        <img class="icon_item" src="../img/iconos/mastercard.png" alt="">
-                        <img class="icon_item" src="../img/iconos/tarjeta-naranja.png" alt="">
-                        <img class="icon_item" src="../img/iconos/american.png" alt="">
-                        <img class="icon_item" src="../img/iconos/cabal.png" alt="">
-                        <img class="icon_item" src="../img/iconos/diners.png" alt="">
-                        <img class="icon_item" src="../img/iconos/mercadopago.png" alt="">
+                        <img class="icon_item" src="../img/iconos/visa.png" alt="icon_visa">
+                        <img class="icon_item" src="../img/iconos/mastercard.png" alt="icon_mc">
+                        <img class="icon_item" src="../img/iconos/tarjeta-naranja.png" alt="icon_tn">
+                        <img class="icon_item" src="../img/iconos/american.png" alt="icon_amer">
+                        <img class="icon_item" src="../img/iconos/cabal.png" alt="icon_cabal">
+                        <img class="icon_item" src="../img/iconos/diners.png" alt="icon_diner">
+                        <img class="icon_item" src="../img/iconos/mercadopago.png" alt="icon_mp">
                     </div>
                 </div>
                 <div class="footer_net col-4">
-                    <h4>REDES SOCIALES</h4>
+                    <h4 class="footer_enc">CONTACTANOS</h4>
                     <div class="icon">
-                        <img class="icon_item" src="../img/iconos/facebook.png" alt="">
-                        <img class="icon_item" src="../img/iconos/whatsapp.png" alt="">
+                        <a href="https://api.whatsapp.com/send?phone=+5493482541388">
+                            <img class="icon_item" src="../img/iconos/whatsapp.png" alt="icon_wsp">
+                        </a>
+                        <a href="mailto:jyrsuiza@gmail.com">
+                            <img class="icon_item" src="../img/iconos/email.png" alt="icon_mail">
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-12 text-center footer_cr">
-                <p>© Joyería y Relojería Suiza</p>
+                <p class="footer_cr_p">© Joyería y Relojería Suiza</p>
             </div>
             <div class="col-12 text-center footer_autor">
-                <p>Pablo Maglione</p>
+                <p class="footer_autor_p">Pablo Maglione</p>
             </div>
         </footer>
     </div>

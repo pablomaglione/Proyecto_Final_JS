@@ -11,6 +11,10 @@
     }
 
     .form {
+        @extend %estiloForm;
+        input, textarea{
+            font-size: 0.6rem;
+        }
         padding-top: 20px;
     }
 }
