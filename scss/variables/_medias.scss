@@ -36,7 +36,6 @@
         }
 
         .section2 {
-            height: 50vh;
 
             .section2_text {
                 .p {
@@ -98,7 +97,7 @@
 
 //1024PX
 @media (min-width: 1024px) {
-
+  
     //HEADER
     .header {
         .navbar-collapse {
@@ -127,7 +126,6 @@
 
         .section2 {
             justify-content: space-evenly;
-            height: 70vh;
 
             .section2_text {
                 .p {
@@ -198,7 +196,7 @@
 
 //1440
 @media (min-width: 1440px) {
-
+ 
     //HEADER
     .header {
 
@@ -242,19 +240,18 @@
 
         .section2 {
             justify-content: space-evenly;
-            height: 85vh;
 
             .section2_text {
                 .p {
                     margin: 10px;
-                    line-height: 40px;
+                    line-height: 50px;
                     font-size: 1.25rem;
                 }
             }
 
             .video-responsive {
                 .video {
-                    width: 95% !important;
+                    width: 85% !important;
                 }
             }
         }
