@@ -65,6 +65,9 @@ h4 {
   background-color: #a4d4e6;
   border-color: #a4d4e6; }
 
+.btn-agregar {
+  width: -webkit-fill-available; }
+
 @media (min-width: 468px) and (max-width: 768px) {
   .main .section1 .sec1_prod {
     flex-direction: column; } }
@@ -172,12 +175,74 @@ body {
 
 .header {
   background-color: #D8E3E7;
-  padding: 5px; }
+  padding: 5px;
+  /* CART */ }
   .header .navbar-nav {
     align-items: flex-end;
     list-style: none; }
     .header .navbar-nav .nav-link:hover {
       color: #c8ccfd !important; }
+  .header .fa-shopping-cart {
+    font-size: 20px;
+    padding: 10px 8px 8px 30px;
+    color: #0c6497;
+    cursor: pointer; }
+  .header #cart-counter {
+    position: absolute;
+    right: 42px;
+    top: 25px;
+    padding: 0px 6px;
+    color: #0c6497;
+    font-weight: bold; }
+  .header .side-bar-wrapper {
+    position: fixed;
+    top: 0;
+    width: 0vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(45, 49, 49, 0.3); }
+  .header #side-bar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: #D8E3E7;
+    z-index: 3; }
+  .header #close-cart {
+    color: #2890cb;
+    font-size: 40px;
+    cursor: pointer;
+    display: block;
+    text-align: end;
+    width: 400px; }
+  .header #close-cart > i {
+    margin: 14px 20px 0px; }
+  .header .cart-container {
+    width: 400px;
+    display: block;
+    transition: 0.3s;
+    margin-right: 2px; }
+  .header #cart > div > div:nth-child(3) {
+    padding: 10px; }
+  .header #cart > div > div:nth-child(2) > span.font-weight-bold.d-block.m-2 {
+    font-size: 20px;
+    font-weight: bold; }
+  .header .clear-cart {
+    border: solid 1px #0c6497;
+    margin: 20px; }
+  .header .cart-footer {
+    text-align: center;
+    width: 400px; }
+  .header #total {
+    display: inline-block; }
+  .header div.form-check.form-switch {
+    position: fixed;
+    left: 10px;
+    bottom: 45px; }
 
 .main .carousel {
   padding: 10px 0px; }

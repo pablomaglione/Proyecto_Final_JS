@@ -65,6 +65,23 @@
                             </li>
                         </ul>
                     </div>
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span id="cart-counter">0</span>
+                </div>
+                <!--Side Bar Carrito-->
+                <div class="side-bar-wrapper">
+                    <div class="sidebar" id="side-bar">
+                        <div class="cart-container text-center">
+                            <span id="close-cart"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+
+                            <h3 class="cart">Productos en el Carrito</h3>
+                            <div id="cart"></div>
+                            <div id="Carrito" class="container-fluid text-center"></div>
+                        </div>
+                        <div class="cart-footer">
+                            <button class="clear-cart btn" id="clear">Limpiar carrito</button>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -102,82 +119,7 @@
                 <h1 class="col-12 text-center">ALIANZAS</h1>
             </div>
             <!-- SECCION PRODUCTOS-->
-            <div class="productos row d-flex">
-                <div data-aos="zoom-in-down" class="productos_item col-xxl-3 col-lg-4 col-md-6 col-sm-12">
-                    <!-- Card-->
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/alianzas/istockphoto-1167923410-612x612.jpg"
-                                alt="IMG_1" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillos de Oro Rosa y Plata</h2>
-                            <p class="small text-muted font-italic">Anillo femenino decorado con diamante.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in-down" class="productos_item col-xxl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/alianzas/istockphoto-1200574929-612x612.jpg"
-                                alt="IMG_2" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillo de Plata</h2>
-                            <p class="small text-muted font-italic">Con Zaffiro azul</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in-down" class="productos_item col-xxl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/alianzas/istockphoto-172753313-612x612.jpg"
-                                alt="IMG_3" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillos de banda redonda</h2>
-                            <p class="small text-muted font-italic">Anillos de plata</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in-down" class="productos_item col-xxl-3 col-lg-4 col-md-6 col-sm-12">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/alianzas/istockphoto-175218669-612x612.jpg"
-                                alt="IMG_4" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillo de Oro</h2>
-                            <p class="small text-muted font-italic">Anillo de Oro con diamante</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in-down" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/alianzas/istockphoto-467936210-612x612.jpg"
-                                alt="IMG_5" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillo de Oro Blanco</h2>
-                            <p class="small text-muted font-italic">Con Diamante aislado</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in-down" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/alianzas/istockphoto-469421500-612x612.jpg"
-                                alt="IMG_6" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillo compromiso de Oro Blanco</h2>
-                            <p class="small text-muted font-italic">Diamante 14K</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in-down" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/alianzas/istockphoto-488559941-612x612.jpg"
-                                alt="IMG_7" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillos de Oro Blanco</h2>
-                            <p class="small text-muted font-italic">Con diamantes blancos en todo el anillo.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in-down" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/alianzas/istockphoto-92030236-612x612.jpg"
-                                alt="IMG_8" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillo de compromiso solitario clásico</h2>
-                            <p class="small text-muted font-italic">Con un diamante de 1,82k</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="productos row d-flex" id="cardsProductos"></div>
             <!-- BANNER BENEFICIOS-->
             <div data-aos="fade-right" class="row banner">
                 <div class="col-6 banner_env d-flex justify-content-evenly align-items-baseline">
@@ -253,6 +195,8 @@
             easing: 'ease'
         });
     </script>
+    <script src="../js/animations.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

@@ -67,6 +67,23 @@
                             </li>
                         </ul>
                     </div>
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span id="cart-counter">0</span>
+                </div>
+                <!--Side Bar Carrito-->
+                <div class="side-bar-wrapper">
+                    <div class="sidebar" id="side-bar">
+                        <div class="cart-container text-center">
+                            <span id="close-cart"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+
+                            <h3 class="cart">Productos en el Carrito</h3>
+                            <div id="cart"></div>
+                            <div id="Carrito" class="container-fluid text-center"></div>
+                        </div>
+                        <div class="cart-footer">
+                            <button class="clear-cart btn" id="clear">Limpiar carrito</button>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -104,92 +121,7 @@
                 <h1 class="col-12 text-center">JOYAS</h1>
             </div>
             <!-- SECCION PRODUCTOS-->
-            <div class="productos row d-flex">
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <!-- Card-->
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-1094472820-612x612.jpg"
-                                alt="IMG_1" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Aros de Oro</h2>
-                            <p class="small text-muted font-italic">Aros de color oro viejo.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-1145185972-612x612.jpg"
-                                alt="IMG_2" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Aros con esmeralda</h2>
-                            <p class="small text-muted font-italic">Par de aros de esmeralda verde aislado.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-936858190-612x612.jpg" alt="IMG_3"
-                                class="img-fluid d-block mx-auto mb-3">
-                            <h2>Colgante de Zafiro</h2>
-                            <p class="small text-muted font-italic">Colgante de Zafiro Azul en forma de pera.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-172206466-612x612.jpg" alt="IMG_4"
-                                class="img-fluid d-block mx-auto mb-3">
-                            <h2>Colgante de Oro Blanco</h2>
-                            <p class="small text-muted font-italic">Colgante de diamantes redondos en
-                                oro platino blanco aislado.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-157185375-612x612.jpg" alt="IMG_5"
-                                class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillo con Diamantes</h2>
-                            <p class="small text-muted font-italic">Anillo de Oro blanco con 3 diamentes.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-173548581-612x612.jpg" alt="IMG_6"
-                                class="img-fluid d-block mx-auto mb-3">
-                            <h2>Medallón de Oro</h2>
-                            <p class="small text-muted font-italic">Medallón de oro en forma de corazón.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-182515107-612x612.jpg" alt="IMG_7"
-                                class="img-fluid d-block mx-auto mb-3">
-                            <h2>Pulsera de Oro</h2>
-                            <p class="small text-muted font-italic">Pulsera de Oro 18k</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-182782985-612x612.jpg" alt="IMG_8"
-                                class="img-fluid d-block mx-auto mb-3">
-                            <h2>Anillo Antiguo</h2>
-                            <p class="small text-muted font-italic">Anillo antiguo de diamantes y platino.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="zoom-in" class="productos_item col-xxl-3 col-lg-4 col-md-6">
-                    <div class="card rounded border-0">
-                        <div class="card-body p-4"><img src="../img/joyas/istockphoto-1178916238-612x612.jpg"
-                                alt="IMG_9" class="img-fluid d-block mx-auto mb-3">
-                            <h2>Pulsera de Plata</h2>
-                            <p class="small text-muted font-italic">Pulsera de Plata con eslabones gruesos.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="productos row d-flex" id="cardsProductos"></div>
             <!-- BANNER BENEFICIOS-->
             <div data-aos="fade-right" class="row banner">
                 <div class="col-6 banner_env d-flex justify-content-evenly align-items-baseline">
@@ -258,13 +190,15 @@
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+    </script>
     <script>
         AOS.init({
             duration: 3000,
             easing: 'ease'
         });
     </script>
+    <script src="../js/animations.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

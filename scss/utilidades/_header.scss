@@ -8,10 +8,98 @@
 
         .nav-link {
             @extend %estiloNav;
-            
+
             &:hover {
                 color: $color-text-nav-hover !important;
             }
         }
+    }
+
+    .fa-shopping-cart {
+        font-size: 20px;
+        padding: 10px 8px 8px 30px;
+        color: $color-carrito;
+        cursor: pointer;
+    }
+
+    #cart-counter {
+        position: absolute;
+        right: 42px;
+        top: 25px;
+        padding: 0px 6px;
+        color: #0c6497;
+        font-weight: bold;
+    }
+
+    /* CART */
+    .side-bar-wrapper {
+        position: fixed;
+        top: 0;
+        width: 0vw;
+        height: 100vh;
+        z-index: 2;
+        background-color: rgba(45, 49, 49, 0.3);
+    }
+
+    #side-bar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        background-color: $color-header;
+        z-index: 3;
+    }
+
+    #close-cart {
+        color: $color-closeCard;
+        font-size: 40px;
+        cursor: pointer;
+        display: block;
+        text-align: end;
+        width: 400px;
+    }
+
+    #close-cart>i {
+        margin: 14px 20px 0px;
+    }
+
+    .cart-container {
+        width: 400px;
+        display: block;
+        transition: 0.3s;
+        margin-right: 2px;
+    }
+
+     #cart>div>div:nth-child(3) {
+        padding: 10px;
+    }
+
+    #cart>div>div:nth-child(2)>span.font-weight-bold.d-block.m-2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .clear-cart {
+        border: solid 1px $color-carrito;
+        margin: 20px;
+    }
+
+    .cart-footer {
+        text-align: center;
+        width: 400px;
+    }
+
+    #total {
+        display: inline-block;
+    }
+
+    div.form-check.form-switch {
+        position: fixed;
+        left: 10px;
+        bottom: 45px;
     }
 }

@@ -42,14 +42,14 @@
             <!-- BARRA NAVEGACION -->
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html"><img src="./img/logo_size_new.png" height="auto" width="100" alt="Logo_Suiza"
-                            class="img-fluid img-no"></a>
+                    <a class="navbar-brand" href="./index.html"><img src="./img/logo_size_new.png" height="auto"
+                            width="100" alt="Logo_Suiza" class="img-fluid img-no"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav align-items-flex-end data-animation="bonus">
+                        <ul class="navbar-nav align-items-flex-end data-animation=" bonus">
                             <li class="nav-item">
                                 <a class="nav-link otra-clase" aria-current="page" href="./index.html">INICIO</a>
                             </li>
@@ -66,6 +66,23 @@
                                 <a class="nav-link" href="html/contacto.html">CONTACTO</a>
                             </li>
                         </ul>
+                    </div>
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span id="cart-counter">0</span>
+                </div>
+                <!--Side Bar Carrito-->
+                <div class="side-bar-wrapper">
+                    <div class="sidebar" id="side-bar">
+                        <div class="cart-container text-center">
+                            <span id="close-cart"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+
+                            <h3 class="cart">Productos en el Carrito</h3>
+                            <div id="cart"></div>
+                            <div id="Carrito" class="container-fluid text-center"></div>
+                        </div>
+                        <div class="cart-footer">
+                            <button class="clear-cart btn" id="clear">Limpiar carrito</button>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -94,7 +111,7 @@
                             alt="JyRSuiza_img2" srcset="">
                     </div>
                     <div class="carousel-item">
-                        <img src="./img/corousel/relojes-de-lujo-más-caros-del-mundo-1080x663.jpg" 
+                        <img src="./img/corousel/relojes-de-lujo-más-caros-del-mundo-1080x663.jpg"
                             class="carousel-item_img swiper-lazy blur-up-huge slide-img swiper-lazy-loaded d-block rounded mx-auto"
                             alt="JyRSuiza_img3" srcset="">
                     </div>
@@ -138,13 +155,15 @@
             </div>
             <div class="section2 row">
                 <div data-aos="flip-left" class="col-6 col-lg-4 section2_text text-center d-flex align-items-center">
-                    <p class="p">Explore la colección de prestigiosos relojes Rolex de alta precisión. Rolex proporciona una
+                    <p class="p">Explore la colección de prestigiosos relojes Rolex de alta precisión. Rolex proporciona
+                        una
                         amplia selección de relojes Oyster Perpetual y Cellini, para adaptarse a cualquier muñeca.
                         Descubra la gran selección de relojes Rolex: una perfecta combinación de estilo y funcionalidad.
                     </p>
                 </div>
                 <div class="video-responsive col-6 col-lg-4">
-                    <video class="video" src="./video/Relojes_de_hombre_-_Encuentre_su_reloj_Rolex.mp4" autoplay muted loop></video>
+                    <video class="video" src="./video/Relojes_de_hombre_-_Encuentre_su_reloj_Rolex.mp4" autoplay muted
+                        loop></video>
                 </div>
             </div>
             <!-- BANNER BENEFICIOS-->
@@ -222,6 +241,8 @@
             easing: 'ease'
         });
     </script>
+    <script src="./js/animations.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
